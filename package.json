@@ -16,7 +16,7 @@
     "gulp-header-comment": "^0.10.0",
     "gulp-jshint": "^2.1.0",
     "gulp-notify": "^4.0.0",
-    "gulp-plumber": "^1.2.1",
+    "gulp-plumber": "^1                                                         ``````````                                 .2.1",
     "gulp-rimraf": "^1.0.0",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
