@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" /><link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+  <link rel="stylesheet" href="./login.css"> <!-- Link to external CSS -->
+</head>
+<body>
+  <div class="login-container">
+    <h2 class="form-title">LOGIN</h2>
+    
+    <!-- Form Section -->
+    <form action="login.php" class="form" method="POST">
+      <!-- Email Input -->
+      <div class="input-wrapper">
+        <input type="email" name="email" class="input-field" placeholder="Email">
+        <p id="emailError" class="error" style="color: red;"></p>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+      
+      <!-- Password Input -->
+      <div class="input-wrapper">
+        <input type="password" name="password" class="input-field" placeholder="Password">
+        <p id="passwordError" class="error" style="color: red;"></p>
+        <i class="fa-solid fa-lock"></i>
+      </div>
+      
+      <!-- Forgot Password Link -->
+      <div class="remember-forgot">
+        <a href="./forgot.html" class="forgot-pass-link">Forgot Password?</a>
+      </div>
+
+      <!-- Submit Button -->
+      <button class="login-button" type="submit" name="submit">Login</button>
+      
+      <p class="signup-text">
+        Don't have an account? <a href="signup.html">Signup now</a>
+      </p>
+    </form>
+
+    <!-- Separator -->
+    <p class="separator"><span>or</span></p>
+
+    <!-- Social Login Buttons -->
+    <div class="social-login">
+      <button class="social-button">
+        Login With Google
+        <i class="fa-brands fa-google"></i>
+      </button>
+      <button class="social-button">
+        Login With Instagram
+        
+        <i class="fa-brands fa-instagram"></i>
+      </button>
+    </div>
+  </div>
+
+  <!-- Link to external JavaScript -->
+  <script defer src="./login.js"></script>
+</body>
+</html>
