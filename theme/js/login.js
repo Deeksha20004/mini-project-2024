@@ -1,3 +1,10 @@
+/**
+ * WEBSITE: https://themefisher.com
+ * TWITTER: https://twitter.com/themefisher
+ * FACEBOOK: https://www.facebook.com/themefisher
+ * GITHUB: https://github.com/themefisher/
+ */
+
 document.getElementById('submitbtn').addEventListener('click', function(event) {
     // Get form elements
     const name = document.querySelector('[name="name"]').value;
